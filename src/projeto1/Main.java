@@ -1,8 +1,10 @@
+package projeto1;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Iniciou o metodo Main");
+        System.out.println("Iniciou o metodo projeto1.Main");
         a();
-        System.out.println("Finalizou o metodo Main");
+        System.out.println("Finalizou o metodo projeto1.Main");
     }
 
     static void a() {
