@@ -2,11 +2,11 @@ package projeto3;
 
 public sealed abstract class Empregado permits Gerente, Vendedor {
 
-    private String codigo;
-    private String nome;
-    private String endereco;
-    private  int idade;
-    private double salario;
+    protected String codigo;
+    protected String nome;
+    protected String endereco;
+    protected   int idade;
+    protected double salario;
 
     public String getCodigo() {
         return codigo;
@@ -47,4 +47,5 @@ public sealed abstract class Empregado permits Gerente, Vendedor {
     public void setSalario(double salario) {
         this.salario = salario;
     }
+
 }

@@ -8,8 +8,8 @@ public class Main {
         var female = new Pessoa("Maria");
         female.incIdade();
 
-        System.out.println(male.getNome() + " " + male.getIdade() );
-        System.out.println(female.getNome() + " " +female.getIdade());
+        System.out.println(male.getNome() + " " + male.getIdade());
+        System.out.println(female.getNome() + " " + female.getIdade());
 
     }
 }
